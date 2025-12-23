@@ -1,9 +1,7 @@
 ﻿using ApiProjeKampi.WebApi.Context;
-using ApiProjeKampi.WebApi.Dtos.FeatureDtos;
 using ApiProjeKampi.WebApi.Dtos.MessageDtos;
 using ApiProjeKampi.WebApi.Entities;
 using AutoMapper;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ApiProjeKampi.WebApi.Controllers
@@ -58,7 +56,7 @@ namespace ApiProjeKampi.WebApi.Controllers
             var value=_mapper.Map<Message>(updateMessageDto);
             _context.Messages.Update(value);
             _context.SaveChanges();
-            return Ok("Mesaj güncelleme işlemi başarılı");
+            return Ok("Mesaj güncelleme işlemi Başarılı");
         }
     }
 }
