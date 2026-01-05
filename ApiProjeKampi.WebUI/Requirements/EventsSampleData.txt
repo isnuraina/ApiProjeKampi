@@ -1,0 +1,40 @@
+﻿
+[
+  {
+    "title": "Doğum Günü Organizasyonu",
+    "description": "Sevdiklerinizle birlikte unutulmaz bir doğum günü kutlaması için özel masa düzeni, süsleme ve isteğe bağlı pasta hizmeti sunuyoruz.",
+    "imageUrl": "test",
+    "status": true,
+    "price": 2500
+  },
+  {
+    "title": "İş Toplantısı & Kurumsal Yemek",
+    "description": "Profesyonel iş toplantıları ve kurumsal davetler için sakin ortam, özel menü seçenekleri ve sunum desteği sağlanmaktadır.",
+    "imageUrl": "test",
+    "status": true,
+    "price": 4000
+  },
+  {
+    "title": "Nişan & Özel Davet",
+    "description": "Nişan, söz ve özel davetleriniz için şık masa konsepti, kişiye özel menüler ve profesyonel servis hizmeti sunuyoruz.",
+    "imageUrl": "test",
+    "status": true,
+    "price": 6000
+  },
+  {
+    "title": "Aile Yemeği Organizasyonu",
+    "description": "Kalabalık aile yemekleri için geniş oturma alanı, zengin menü çeşitleri ve sıcak bir ortam hazırlıyoruz.",
+    "imageUrl": "test",
+    "status": true,
+    "price": 3000
+  },
+  {
+    "title": "Özel Kutlama Gecesi",
+    "description": "Yıldönümü, mezuniyet ve özel başarı kutlamalarınız için romantik atmosfer, canlı müzik ve özel servis seçenekleri sunulmaktadır.",
+    "imageUrl": "test",
+    "status": true,
+    "price": 5000
+  }
+]
+
+/yummy-red-1.0.0/assets/img/events-1.jpg
