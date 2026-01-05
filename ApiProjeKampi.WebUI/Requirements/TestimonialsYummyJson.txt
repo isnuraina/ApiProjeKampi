@@ -1,0 +1,38 @@
+﻿[
+  {
+    "nameSurname": "Ahmet Yılmaz",
+    "title": "Yemek Bloggeri",
+    "comment": "Lezzetler gerçekten mükemmel. Özellikle et yemekleri tam kıvamında ve sunum çok özenliydi. Tekrar tekrar gelmek isteyeceğiniz bir restoran.",
+    "imageUrl": "test"
+  },
+  {
+    "nameSurname": "Elif Demir",
+    "title": "Müşteri",
+    "comment": "Güler yüzlü personel, hızlı servis ve harika tatlar. Ailecek rahatça vakit geçirebileceğiniz sıcak bir ortam sunuyorlar.",
+    "imageUrl": "test"
+  },
+  {
+    "nameSurname": "Mehmet Kaya",
+    "title": "Gastronomi Yazarı",
+    "comment": "Menüdeki çeşitlilik ve kullanılan malzemelerin kalitesi hemen fark ediliyor. Şehrin en başarılı restoranlarından biri.",
+    "imageUrl": "test"
+  },
+  {
+    "nameSurname": "Zeynep Arslan",
+    "title": "Şef",
+    "comment": "Lezzet dengesi, porsiyon miktarı ve sunum gerçekten profesyonelce hazırlanmış. Mutfak ekibini tebrik ederim.",
+    "imageUrl": "test"
+  },
+  {
+    "nameSurname": "Can Öztürk",
+    "title": "İşletmeci",
+    "comment": "Toplantı ve özel davetler için ideal bir mekan. Hem servis kalitesi hem de ambiyans çok başarılı.",
+    "imageUrl": "test"
+  },
+  {
+    "nameSurname": "Ayşe Korkmaz",
+    "title": "Daimi Müşteri",
+    "comment": "Uzun süredir geliyorum ve kalite hiç düşmedi. Her gelişimde aynı lezzeti bulmak gerçekten çok değerli.",
+    "imageUrl": "test"
+  }
+]

@@ -2,7 +2,7 @@
 
 namespace ApiProjeKampi.WebUI.ViewComponents
 {
-    public class _FeatureDefaultComponentPartial:ViewComponent
+    public class _FeatureDefaultComponentPartial : ViewComponent
     {
         public IViewComponentResult Invoke()
         {
