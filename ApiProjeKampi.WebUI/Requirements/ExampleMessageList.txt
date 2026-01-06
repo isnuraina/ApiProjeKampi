@@ -1,0 +1,82 @@
+﻿[
+  {
+    "nameSurname": "Ahmet Yılmaz",
+    "email": "ahmet.yilmaz@mail.com",
+    "subject": "Rezervasyon Hakkında Bilgi",
+    "messageDetails": "Cumartesi akşamı 4 kişilik masa ayırtmak istiyorum. Uygunluk durumu hakkında bilgi alabilir miyim?",
+    "sendDate": "2026-01-02T14:30:00",
+    "isRead": false
+  },
+  {
+    "nameSurname": "Elif Demir",
+    "email": "elif.demir@mail.com",
+    "subject": "Doğum Günü Organizasyonu",
+    "messageDetails": "Kızım için küçük bir doğum günü organizasyonu yapmak istiyoruz. Menü ve fiyat bilgisi alabilir miyim?",
+    "sendDate": "2026-01-02T15:10:00",
+    "isRead": false
+  },
+  {
+    "nameSurname": "Mehmet Kaya",
+    "email": "mehmet.kaya@mail.com",
+    "subject": "Kurumsal Toplantı Yemeği",
+    "messageDetails": "20 kişilik bir iş yemeği planlıyoruz. Özel menü ve salon imkanlarınız hakkında bilgi rica ederim.",
+    "sendDate": "2026-01-03T09:45:00",
+    "isRead": false
+  },
+  {
+    "nameSurname": "Zeynep Arslan",
+    "email": "zeynep.arslan@mail.com",
+    "subject": "Canlı Müzik Günleri",
+    "messageDetails": "Restoranınızda canlı müzik olan günler hakkında bilgi alabilir miyim?",
+    "sendDate": "2026-01-03T11:20:00",
+    "isRead": false
+  },
+  {
+    "nameSurname": "Can Öztürk",
+    "email": "can.ozturk@mail.com",
+    "subject": "Rezervasyon Teşekkürü",
+    "messageDetails": "Dün akşamki rezervasyonumuz için teşekkür etmek istedim. Her şey çok güzeldi.",
+    "sendDate": "2026-01-01T20:15:00",
+    "isRead": true
+  },
+  {
+    "nameSurname": "Ayşe Korkmaz",
+    "email": "ayse.korkmaz@mail.com",
+    "subject": "Menü Hakkında Soru",
+    "messageDetails": "Vejetaryen menü seçenekleriniz var mı? Detaylı bilgi alabilir miyim?",
+    "sendDate": "2026-01-01T16:40:00",
+    "isRead": true
+  },
+  {
+    "nameSurname": "Burak Yıldız",
+    "email": "burak.yildiz@mail.com",
+    "subject": "Otopark Bilgisi",
+    "messageDetails": "Restoranınıza ait otopark alanı bulunuyor mu?",
+    "sendDate": "2025-12-31T18:05:00",
+    "isRead": true
+  },
+  {
+    "nameSurname": "Selin Akın",
+    "email": "selin.akin@mail.com",
+    "subject": "Özel Gün Rezervasyonu",
+    "messageDetails": "Evlilik yıl dönümümüz için sakin bir masa ayırtmak istiyoruz. Yardımcı olabilir misiniz?",
+    "sendDate": "2025-12-30T13:50:00",
+    "isRead": true
+  },
+  {
+    "nameSurname": "Emre Polat",
+    "email": "emre.polat@mail.com",
+    "subject": "Çalışma Saatleri",
+    "messageDetails": "Hafta içi ve hafta sonu çalışma saatleriniz hakkında bilgi alabilir miyim?",
+    "sendDate": "2025-12-29T10:25:00",
+    "isRead": true
+  },
+  {
+    "nameSurname": "Merve Şahin",
+    "email": "merve.sahin@mail.com",
+    "subject": "Hizmet Memnuniyeti",
+    "messageDetails": "Geçen hafta ziyaret ettik, servis ve lezzet gerçekten çok başarılıydı. Teşekkür ederiz.",
+    "sendDate": "2025-12-28T21:10:00",
+    "isRead": true
+  }
+]
