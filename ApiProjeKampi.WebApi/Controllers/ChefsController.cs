@@ -15,7 +15,7 @@ namespace ApiProjeKampi.WebApi.Controllers
         {
             _context = context;
         }
-        [HttpGet]
+        [HttpGet("GetAll")]
         public IActionResult ChefList()
         {
             var values=_context.Chefs.ToList();
@@ -34,7 +34,7 @@ namespace ApiProjeKampi.WebApi.Controllers
             _context.SaveChanges();
             return Ok("Şef sistemden silindi");
         }
-        [HttpGet("GetChef")]
+        [HttpGet("GetById")]
         public IActionResult GetChef(int id)
         {
             var value = _context.Chefs.Find(id);

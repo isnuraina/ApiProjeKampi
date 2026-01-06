@@ -1,0 +1,22 @@
+﻿[
+  {
+    "nameSurname": "Mehmet Aksoy",
+    "title": "Baş Şef",
+    "description": "20 yılı aşkın mutfak deneyimiyle geleneksel ve modern lezzetleri bir araya getirerek restoranımızın imza menüsünü oluşturmaktadır.",
+    "imageUrl": "test"
+  },
+  {
+    "nameSurname": "Elif Karaca",
+    "title": "Pastane Şefi",
+    "description": "Özel tatlılar, el yapımı pastalar ve modern sunumlarıyla misafirlerimize unutulmaz tatlı deneyimleri sunmaktadır.",
+    "imageUrl": "test"
+  },
+  {
+    "nameSurname": "Burak Yıldız",
+    "title": "Izgara & Et Şefi",
+    "description": "Et pişirme teknikleri ve özel marine tarifleriyle öne çıkan şefimiz, lezzet ve kaliteyi ön planda tutmaktadır.",
+    "imageUrl": "test"
+  }
+]
+
+/yummy-red-1.0.0/assets/img/chefs/chefs-1.jpg
