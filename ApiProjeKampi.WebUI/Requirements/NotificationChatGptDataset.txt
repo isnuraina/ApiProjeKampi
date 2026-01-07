@@ -1,0 +1,32 @@
+﻿[
+  {
+    "description": "Yeni bir masa rezervasyonu oluşturuldu. Detayları kontrol ediniz.",
+    "iconUrl": "test",
+    "notificationDate": "2026-01-07T08:30:00.000Z",
+    "isRead": false
+  },
+  {
+    "description": "İletişim formu üzerinden yeni bir müşteri mesajı alındı.",
+    "iconUrl": "test",
+    "notificationDate": "2026-01-07T09:10:00.000Z",
+    "isRead": false
+  },
+  {
+    "description": "Bu akşam yapılacak doğum günü organizasyonu için hazırlık zamanı yaklaşıyor.",
+    "iconUrl": "test",
+    "notificationDate": "2026-01-07T11:45:00.000Z",
+    "isRead": true
+  },
+  {
+    "description": "Bazı ürünlerin stok seviyesi kritik düzeye düştü.",
+    "iconUrl": "test",
+    "notificationDate": "2026-01-07T13:20:00.000Z",
+    "isRead": true
+  },
+  {
+    "description": "Gün sonu raporu başarıyla oluşturuldu.",
+    "iconUrl": "test",
+    "notificationDate": "2026-01-07T22:00:00.000Z",
+    "isRead": true
+  }
+]
