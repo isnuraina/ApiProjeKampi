@@ -19,7 +19,7 @@ namespace ApiProjeKampi.WebUI.Controllers
         public async Task<IActionResult> ProductList()
         {
             var client = _httpClientFactory.CreateClient();
-            var responseMessage = await client.GetAsync("https://localhost:7230/api/Products/GetAll");
+            var responseMessage = await client.GetAsync("https://localhost:7230/api/Products/ProductListWithCategory");
             if (responseMessage.IsSuccessStatusCode)
             {
                 var jsonData = await responseMessage.Content.ReadAsStringAsync();
