@@ -1,0 +1,65 @@
+﻿using ApiProjeKampi.WebApi.Context;
+using ApiProjeKampi.WebApi.Dtos.AboutDtos;
+using ApiProjeKampi.WebApi.Entities;
+using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
+
+namespace ApiProjeKampi.WebApi.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class AboutsController : ControllerBase
+    {
+        private readonly ApiContext _context;
+        private readonly IMapper _mapper;
+
+        public AboutsController(ApiContext context, IMapper mapper)
+        {
+            _context = context;
+            _mapper = mapper;
+        }
+
+        [HttpGet("GetAll")]
+        public IActionResult AboutList()
+        {
+            var values = _context.Abouts.ToList();
+            return Ok(values);
+        }
+
+        [HttpGet("GetById")]
+        public IActionResult GetAbout(int id)
+        {
+            var value = _context.Abouts.Find(id);
+            return Ok(value);
+        }
+
+        [HttpPost]
+        public IActionResult CreateAbout(CreateAboutDto createAboutDto)
+        {
+            var value = _mapper.Map<About>(createAboutDto);
+            _context.Abouts.Add(value);
+            _context.SaveChanges();
+            return Ok("Hakkımda alanı ekleme işlemi başarılı");
+        }
+
+        [HttpDelete]
+        public IActionResult DeleteAbout(int id)
+        {
+            var value = _context.Abouts.Find(id);
+            _context.Abouts.Remove(value);
+            _context.SaveChanges();
+            return Ok("Hakkımda alanı silme işlemi başarılı");
+        }
+
+
+        [HttpPut]
+        public IActionResult UpdateAbout(UpdateAboutDto updateAboutDto)
+        {
+            var value = _mapper.Map<About>(updateAboutDto);
+            _context.Abouts.Update(value);
+            _context.SaveChanges();
+            return Ok("Hakkımda alanı güncelleme işlemi başarılı");
+        }
+
+    }
+}
