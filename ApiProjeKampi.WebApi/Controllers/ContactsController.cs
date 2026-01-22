@@ -34,7 +34,7 @@ namespace ApiProjeKampi.WebApi.Controllers
             contact.OpenHours = createContactDto.OpenHours;
             _context.Contacts.Add(contact);
             _context.SaveChanges();
-            return Ok("Ekleme işlemi başarılı");
+            return Ok("Contact Ekleme İşlemi Başarılı");
         }
 
         [HttpDelete]
@@ -42,7 +42,7 @@ namespace ApiProjeKampi.WebApi.Controllers
             var value=_context.Contacts.Find(id); 
             _context.Contacts.Remove(value);
             _context.SaveChanges();
-            return Ok("Silme işlemi başarılı");
+            return Ok("Contact Silme İşlemi Başarılı");
         }
         [HttpGet("GetContact")]
         public IActionResult GetContact(int id) { 
@@ -63,7 +63,7 @@ namespace ApiProjeKampi.WebApi.Controllers
             contact.OpenHours= updateContactDto.OpenHours;
             _context.Contacts.Update(contact);
             _context.SaveChanges();
-            return Ok("Güncelleme işlemi başarılı");
+            return Ok("Contact Güncelleme İşlemi Başarılı");
         }
     }
 }
