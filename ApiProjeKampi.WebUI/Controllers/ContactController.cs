@@ -1,4 +1,5 @@
 ﻿using ApiProjeKampi.WebUI.DTOs.ContactDtos;
+using ApiProjeKampi.WebUI.DTOs.ContactDtos;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System.Text;
@@ -57,9 +58,10 @@ namespace ApiProjeKampi.WebUI.Controllers
         public async Task<IActionResult> UpdateContact(int id)
         {
             var client = _httpClientFactory.CreateClient();
-            var responseMessage = await client.GetAsync("https://localhost:7230/api/Contacts/?id=" + id);
+            var responseMessage = await client.GetAsync(
+                "https://localhost:7230/api/Contacts/GetContact?id=" + id);
             var jsonData = await responseMessage.Content.ReadAsStringAsync();
-            var value = JsonConvert.DeserializeObject<UpdateContactDto>(jsonData);
+            var value = JsonConvert.DeserializeObject<GetContactByIdDto>(jsonData);
             return View(value);
         }
         [HttpPost]
