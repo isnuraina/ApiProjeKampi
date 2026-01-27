@@ -29,6 +29,7 @@ namespace ApiProjeKampi.WebUI.Controllers
         [HttpGet]
         public IActionResult CreateAbout()
         {
+
             return View();
         }
         [HttpPost]
