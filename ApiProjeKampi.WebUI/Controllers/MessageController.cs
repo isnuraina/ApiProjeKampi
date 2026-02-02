@@ -160,11 +160,11 @@ namespace ApiProjeKampi.WebUI.Controllers
                 if (toxicResponseString.TrimStart().StartsWith("["))
                 {
                     var toxicDoc = JsonDocument.Parse(toxicResponseString);
-                    foreach (var item in toxicDoc.RootElement[0].EnumerateArray())
+                    foreach (var item in toxicDoc.RootElement.EnumerateArray())
                     {
                         string label = item.GetProperty("label").GetString();
                         double score = item.GetProperty("score").GetDouble();
-                        if (score>0.5)
+                        if (score > 0.5)
                         {
                             createMessageDto.Status = "Toksik Mesaj";
                             break;
