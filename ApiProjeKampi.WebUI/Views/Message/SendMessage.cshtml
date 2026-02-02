@@ -9,7 +9,7 @@
         <div class="col-md-6 ">
             <input type="email" class="form-control" asp-for="Email" name="email" placeholder="Email Adresiniz" required="">
         </div>
-        i
+        
         <div class="col-md-12">
             <input type="text" class="form-control" asp-for="Subject" placeholder="Konu" required="">
         </div>
@@ -19,6 +19,9 @@
         </div>
 
         <div class="col-md-12 text-center">
+        <div class="loading">Loading</div>
+        <div class="error-message"></div>
+        <div class="sent-message">Your message has been sent.Thank you!</div>
             <button type="submit">Mesajı Gönder</button>
         </div>
     </div>
